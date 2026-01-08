@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche GT3 RS | Emerald Edition</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <div class="menu-overlay"></div>
+
+    <header>
+        <div class="logo">GT3 <span>RS</span></div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li>
+                    <a href="#specs">Componenti <span class="arrow-down"></span></a>
+                    <ul class="dropdown">
+                        <li><a href="#engine">Motore</a></li>
+                        <li><a href="#chassis">Telaio & Aerodinamica</a></li>
+                        <li><a href="#interior">Interni</a></li>
+                    </ul>
+                </li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="https://assets.porsche.com/-/media/Porsche/base_content/Homepage/Stage/Desktop/Porsche-com-Homepage-Stage_08-2023_desktop.mp4?la=en&vs=1" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content" data-aos="zoom-out" data-aos-duration="1500">
+            <h1>Porsche GT3 <span>RS</span></h1>
+            <p>Innovazione. Performance. Emozione.</p>
+            <a href="#specs" class="btn">Scopri di più</a>
+        </div>
+    </section>
+
+    <section id="specs" class="specs">
+        <h2 class="section-title" data-aos="fade-right">Dati Tecnici</h2>
+        <div class="specs-grid">
+            <div class="spec-card" data-aos="fade-up">
+                <h3>Potenza</h3>
+                <p><span class="counter" data-target="525">0</span> CV</p>
+            </div>
+            <div class="spec-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>0-100 km/h</h3>
+                <p><span class="counter" data-target="3.2">0.0</span>s</p>
+            </div>
+            <div class="spec-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Top Speed</h3>
+                <p><span class="counter" data-target="296">0</span> km/h</p>
+            </div>
+            <div class="spec-card" data-aos="fade-up" data-aos-delay="300">
+                <h3>Peso</h3>
+                <p><span class="counter" data-target="1450">0</span> kg</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="components" class="components">
+        <div class="component-section" id="engine">
+            <h2 class="section-title" data-aos="fade-right">Motore & Prestazioni</h2>
+            <div class="component-content">
+                <div class="component-text" data-aos="fade-up">
+                    <h3>Cuore Pulsante</h3>
+                    <p>Il flat-six aspirato da 4.0 litri è una sinfonia di ingegneria. Con 525 CV e una coppia esplosiva, ogni accelerazione è un'esperienza viscerale che ti incolla al sedile. Progettato per le massime prestazioni in pista, garantisce una risposta immediata e un'erogazione di potenza lineare fino agli 8400 giri/min.</p>
+                </div>
+                <div class="component-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1549746404-7a915998a46b?auto=format&fit=crop&q=80&w=1000" alt="Motore GT3 RS">
+                </div>
+            </div>
+        </div>
+
+        <div class="component-section reverse" id="chassis">
+            <h2 class="section-title" data-aos="fade-left">Aerodinamica Estrema</h2>
+            <div class="component-content">
+                <div class="component-image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1627916947700-0e9e1c2a8f89?auto=format&fit=crop&q=80&w=1000" alt="Aerodinamica GT3 RS">
+                </div>
+                <div class="component-text" data-aos="fade-up">
+                    <h3>Forma e Funzione</h3>
+                    <p>Ogni elemento della carrozzeria è stato scolpito dal vento. Dall'ala posteriore a doppio profilo all'estrattore ottimizzato, fino alle feritoie sui passaruota, tutto contribuisce a generare una deportanza senza precedenti, garantendo stabilità e aderenza in ogni curva, anche alle alte velocità.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="component-section" id="interior">
+            <h2 class="section-title" data-aos="fade-right">Abitacolo Racing</h2>
+            <div class="component-content">
+                <div class="component-text" data-aos="fade-up">
+                    <h3>Dentro l'Azione</h3>
+                    <p>L'abitacolo è un'estensione del pilota. Sedili a guscio in carbonio, roll-bar, e un volante rivestito in Alcantara ti mettono al centro dell'esperienza di guida. Ogni comando è intuitivo, ogni display fornisce informazioni cruciali per la pista, minimizzando le distrazioni e massimizzando il controllo.</p>
+                </div>
+                <div class="component-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1588616148384-e4d0d292a832?auto=format&fit=crop&q=80&w=1000" alt="Interni GT3 RS">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <h2 class="section-title" data-aos="fade-right">Gallery Esclusiva</h2>
+        <div class="slideshow-container" data-aos="zoom-in">
+            <div class="mySlides fade">
+                <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7fd761?auto=format&fit=crop&q=80&w=1920" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://images.unsplash.com/photo-1611651338412-8403fa6e3e2c?auto=format&fit=crop&q=80&w=1920" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1920" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&q=80&w=1920" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2024 Porsche GT3 RS Fan Site - Progetto Gabriele Alari</p>
+        <p>Contattaci: info@example.com</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/dist/aos.js"></script>
+    <script src="script.js"></script> </body>
+</html>
