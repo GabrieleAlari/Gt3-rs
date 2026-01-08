@@ -550,3 +550,15 @@ footer p {
     opacity: 1;
 }
 
+
+/* OTTIMIZZAZIONE MOBILE */
+@media (max-width: 768px) {
+    .hero-content h1 { font-size: 3rem !important; }
+    .hero-content p { font-size: 1rem; }
+    .specs-grid { grid-template-columns: 1fr 1fr; } /* Due colonne su mobile */
+    .spec-card p { font-size: 2rem; }
+    .component-content { flex-direction: column !important; }
+    .component-image img { width: 100%; height: auto; }
+    .mySlides img { height: 300px; } /* Foto più basse su mobile */
+}
+
